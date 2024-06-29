@@ -20,10 +20,7 @@ namespace PlayerDesktop
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
         }
-        public string getAuthorizationLogin()
-        {
-            return this.loginAut;
-        }
+       
 
         public string searchForLog()
         {

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlayerDesktop.ViewModels.SongViewModel" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAADAEAEAAIAAAAAAIAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ViewModels\SongViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDesktop.ViewModels.UserProfileViewModel" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQAgAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>ViewModels\UserProfileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDesktop.Authorization">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAACgAAABAAACACAACAAQIAAAAAEAAAwAAEAA=</HashCode>
+      <FileName>Authorization.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.FavouritesControl">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAABAAAAGAAEACAAAYgAAIIHAAAAAAICA=</HashCode>
+      <FileName>FavouritesControl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repo" />
+      <Field Name="waveOut" />
+      <Field Name="audioFileReader" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.FavouriteSongs">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAQAAACAgABAAAAGIAAACCAwJAAAAgEAAAAAAAAA=</HashCode>
+      <FileName>FavouriteSongs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.Home">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDesktop.Program">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDesktop.Regestration">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAgIACACABAABQCAAAACAAAAAAAAAQAgEwAAAAA=</HashCode>
+      <FileName>Regestration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.RepositorySQL" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAABAAAQAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositorySQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDesktop.SongsControl">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAABAAAAGAAEACAAA4gAAIIHAAAAAAICA=</HashCode>
+      <FileName>SongsControl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repo" />
+      <Field Name="waveOut" />
+      <Field Name="audioFileReader" />
+      <Field Name="_songViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.SongsList">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAACQAAACAAABAAAgGIAAACIIAAAAAAgAABAAAAAEA=</HashCode>
+      <FileName>SongsList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.UserProfile">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAABACBAABAAIAGAEAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>UserProfile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerDesktop.UserProfileInformation">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserProfileInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NAudio.Wave.WaveOutEvent" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NAudio.Wave.AudioFileReader" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

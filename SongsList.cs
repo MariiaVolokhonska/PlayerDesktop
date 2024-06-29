@@ -40,23 +40,7 @@ namespace PlayerDesktop
                
                 string filePath = reader["Location"].ToString();
                 listOfSongs.Add(new SongViewModel { SongId=int.Parse(songId), Title = songName, Artist= artistName, Album = albumName, Genre=genre, Duration=float.Parse(duration), Location = filePath });
-               
-
-                /*
-                Button playButton = new Button();
-                 playButton.Text = "Play";
-                         playButton.Tag = filePath; // Хранение пути к файлу в свойстве Tag кнопки
-                         playButton.Click += PlayButton_Click; // Обработчик нажатия для проигрывания песни
-
-                         Button addToPlaylistButton = new Button();
-                 addToPlaylistButton.Text = "Add to Playlist";
-                         addToPlaylistButton.Tag = songName; // Или может быть songId или что-то еще
-                         addToPlaylistButton.Click += AddToPlaylistButton_Click; // Обработчик нажатия для добавления песни в плейлист
-
-                         // Создание панели для размещения кнопок в строку*/
-
-
-                // listBox1.Items.Clear();
+              
 
 
             }

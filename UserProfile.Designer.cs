@@ -48,6 +48,7 @@ namespace PlayerDesktop
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -117,7 +118,6 @@ namespace PlayerDesktop
             this.Controls.Add(this.pictureBox1);
             this.Name = "UserProfile";
             this.Text = "UserProfile";
-           
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
